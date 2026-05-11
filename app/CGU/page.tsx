@@ -53,3 +53,4 @@ export default function CGU() {
     </div>
   );
 }
+// FIN
