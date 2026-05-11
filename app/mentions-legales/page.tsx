@@ -15,13 +15,13 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-xl font-black text-[#0E3A5F] mb-4 border-b border-gray-100 pb-2">1. Éditeur du site</h2>
             <p className="leading-relaxed text-gray-600 font-medium">
-              Le site <strong>atmo-site.vercel.app</strong> (ou votre domaine) et l'application <strong>GainablePro</strong> sont édités par :<br /><br />
-              <strong>[ATMO]</strong><br />
-              Forme juridique : [Entrepreneur individuel]<br />
-              Capital social : [1] €<br />
-              Siège social : [1174 route de Saint Sulpice 42300 Villerest]<br />
-              SIRET : [10459853700017]<br />
-              RCS : [Roanne]<br />
+              Le site <strong>atmo-site.vercel.app</strong> et l'application <strong>GainablePro</strong> sont édités par :<br /><br />
+              <strong>ATMO</strong><br />
+              Forme juridique : Entrepreneur individuel<br />
+              Capital social : 1 €<br />
+              Siège social : 1174 route de Saint-Sulpice 42300 Villerest<br />
+              SIRET : 10459853700017<br />
+              RCS : Roanne<br />
               Directeur de la publication : Paul LEVEL<br />
               Contact : <a href="mailto:arthropaul@gmail.com" className="text-[#29A5DB] hover:underline">arthropaul@gmail.com</a>
             </p>
