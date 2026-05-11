@@ -149,8 +149,8 @@ export default function ATMO_Hub() {
             © {new Date().getFullYear()} ATMO. Tous droits réservés.
           </p>
           <div className="flex gap-6 text-xs font-bold text-gray-400">
-            <a href="#" className="hover:text-[#0E3A5F] transition-colors">Mentions légales</a>
-            <a href="#" className="hover:text-[#0E3A5F] transition-colors">CGU</a>
+            <Link href="/mentions-legales" className="hover:text-[#0E3A5F] transition-colors">Mentions légales</Link>
+            <Link href="/cgu" className="hover:text-[#0E3A5F] transition-colors">CGU</Link>
           </div>
         </div>
       </footer>
