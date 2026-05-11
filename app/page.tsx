@@ -26,8 +26,8 @@ export default function ATMO_Hub() {
         </div>
       </header>
 
-      {/* HERO SECTION : PRÉSENTATION */}
-      <section className="bg-[#0E3A5F] text-white pt-24 pb-28 px-6 relative overflow-hidden">
+      {/* HERO SECTION : EN-TÊTE DYNAMIQUE */}
+      <section className="bg-[#0E3A5F] text-white pt-24 pb-24 px-6 relative overflow-hidden">
         {/* Vague stylisée Cyan en arrière-plan (rappel du logo) */}
         <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
             <svg viewBox="0 0 1440 320" className="absolute bottom-0 w-full">
@@ -47,10 +47,50 @@ export default function ATMO_Hub() {
         </div>
       </section>
 
+      {/* NOUVELLE SECTION : PRÉSENTATION DE LA MISSION ATMO */}
+      <section className="bg-white py-24 px-6 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h3 className="text-[#29A5DB] font-black text-[11px] uppercase tracking-[0.2em] mb-4">L'Expertise ATMO</h3>
+            <h2 className="text-3xl md:text-4xl font-black text-[#0E3A5F] mb-6 tracking-tight">
+              Digitaliser l'ingénierie climatique
+            </h2>
+            <p className="text-gray-600 text-lg leading-relaxed font-medium">
+              Née de l'exigence du terrain, ATMO se donne pour mission de transformer les défis techniques complexes en solutions logicielles simples et intuitives. Notre ambition : fournir aux artisans, bureaux d'études et installateurs les outils ultimes pour dimensionner leurs projets avec une fiabilité absolue.
+            </p>
+          </div>
+
+          {/* Les 3 Piliers */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-[#F8FAFC] rounded-[2rem] p-8 border border-gray-100 text-center hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-2xl shadow-sm mx-auto mb-6 border border-gray-100">🎯</div>
+              <h4 className="text-[#0E3A5F] text-lg font-black mb-3">Précision Technique</h4>
+              <p className="text-sm text-gray-500 font-medium leading-relaxed">
+                Des algorithmes de calcul rigoureux pour des réseaux aérauliques toujours conformes aux normes et recommandations constructeurs.
+              </p>
+            </div>
+            <div className="bg-[#F8FAFC] rounded-[2rem] p-8 border border-gray-100 text-center hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-2xl shadow-sm mx-auto mb-6 border border-gray-100">⚡</div>
+              <h4 className="text-[#0E3A5F] text-lg font-black mb-3">Gain de Temps</h4>
+              <p className="text-sm text-gray-500 font-medium leading-relaxed">
+                Fini les feuilles de calcul complexes. Automatisez vos tracés, pertes de charges et nomenclatures en quelques minutes.
+              </p>
+            </div>
+            <div className="bg-[#F8FAFC] rounded-[2rem] p-8 border border-gray-100 text-center hover:shadow-lg transition-shadow">
+              <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-2xl shadow-sm mx-auto mb-6 border border-gray-100">📱</div>
+              <h4 className="text-[#0E3A5F] text-lg font-black mb-3">Expérience Connectée</h4>
+              <p className="text-sm text-gray-500 font-medium leading-relaxed">
+                Une suite d'applications (PWA) pensées pour l'utilisateur : claires, modernes et directement accessibles sur PC et smartphones.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CATALOGUE DES APPLICATIONS */}
-      <main className="flex-1 max-w-7xl mx-auto px-6 py-16 w-full -mt-12 relative z-20">
+      <main className="max-w-7xl mx-auto px-6 py-24 w-full relative z-20">
         
-        <h3 className="text-sm font-black text-gray-400 uppercase tracking-widest mb-8 text-center md:text-left">
+        <h3 className="text-sm font-black text-gray-400 uppercase tracking-widest mb-10 text-center md:text-left">
           Nos Applications Disponibles
         </h3>
 
@@ -58,14 +98,14 @@ export default function ATMO_Hub() {
           
           {/* CARTE APPLICATION : GAINABLE PRO */}
           <a href="https://gainable-pro.vercel.app" target="_blank" rel="noopener noreferrer" className="group block h-full">
-            <div className="bg-white rounded-[2rem] p-8 border border-gray-100 shadow-xl hover:shadow-2xl hover:border-[#29A5DB]/30 transition-all duration-300 h-full flex flex-col relative overflow-hidden">
+            <div className="bg-white rounded-[2rem] p-8 border border-gray-200 shadow-lg hover:shadow-2xl hover:border-[#29A5DB]/50 transition-all duration-300 h-full flex flex-col relative overflow-hidden">
               {/* Ligne décorative en haut */}
               <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#0E3A5F] to-[#29A5DB]"></div>
               
               <div className="flex items-center gap-5 mb-8 mt-2">
-                {/* LOGO GAINABLE PRO (Mix blend multiply pour fondre le blanc du JPG) */}
+                {/* LOGO GAINABLE PRO */}
                 <div className="w-20 h-20 rounded-2xl bg-white flex items-center justify-center border border-gray-100 shadow-sm p-2 group-hover:scale-105 transition-transform overflow-hidden">
-                  <img src="/logo-redimension-GP.jpg" alt="GainablePro" className="w-full h-full object-contain mix-blend-multiply" />
+                  <img src="/logo-redimension-GP.png" alt="GainablePro" className="w-full h-full object-contain mix-blend-multiply" />
                 </div>
                 <div>
                   <h4 className="text-2xl font-black text-[#0E3A5F]">GainablePro</h4>
@@ -86,7 +126,7 @@ export default function ATMO_Hub() {
           </a>
 
           {/* CARTE : PROCHAINE APPLICATION */}
-          <div className="bg-white/50 rounded-[2rem] p-8 border-2 border-dashed border-gray-200 h-full flex flex-col justify-center items-center text-center opacity-70">
+          <div className="bg-white/40 rounded-[2rem] p-8 border-2 border-dashed border-gray-300 h-full flex flex-col justify-center items-center text-center opacity-80">
             <div className="w-16 h-16 rounded-2xl bg-gray-100 flex items-center justify-center mb-6">
               <span className="text-3xl opacity-40">🛠️</span>
             </div>
@@ -118,4 +158,3 @@ export default function ATMO_Hub() {
     </div>
   );
 }
-// FIN
