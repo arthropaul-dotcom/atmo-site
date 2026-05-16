@@ -97,7 +97,7 @@ export default function ATMO_Hub() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
           {/* CARTE APPLICATION : GAINABLE PRO */}
-          <a href="https://gainable-pro.vercel.app" target="_blank" rel="noopener noreferrer" className="group block h-full">
+          <a href="https://gainablepro.atmo-pro.fr" target="_blank" rel="noopener noreferrer" className="group block h-full">
             <div className="bg-white rounded-[2rem] p-8 border border-gray-200 shadow-lg hover:shadow-2xl hover:border-[#29A5DB]/50 transition-all duration-300 h-full flex flex-col relative overflow-hidden">
               {/* Ligne décorative en haut */}
               <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#0E3A5F] to-[#29A5DB]"></div>
