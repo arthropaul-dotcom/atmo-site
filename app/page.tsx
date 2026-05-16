@@ -20,7 +20,7 @@ export default function ATMO_Hub() {
               </p>
             </div>
           </div>
-          <a href="mailto:arthropaul@gmail.com" className="text-sm font-bold text-[#0E3A5F] hover:text-[#29A5DB] transition-colors">
+          <a href="mailto:contact@atmo-pro.fr" className="text-sm font-bold text-[#0E3A5F] hover:text-[#29A5DB] transition-colors">
             Contact
           </a>
         </div>
@@ -163,3 +163,4 @@ export default function ATMO_Hub() {
     </div>
   );
 }
+//FIN

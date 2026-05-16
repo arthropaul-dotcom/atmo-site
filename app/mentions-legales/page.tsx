@@ -23,7 +23,7 @@ export default function MentionsLegales() {
               SIRET : 10459853700017<br />
               RCS : Roanne<br />
               Directeur de la publication : Paul LEVEL<br />
-              Contact : <a href="mailto:arthropaul@gmail.com" className="text-[#29A5DB] hover:underline">arthropaul@gmail.com</a>
+              Contact : <a href="mailto:contact@atmo-pro.fr" className="text-[#29A5DB] hover:underline">contact@atmo-pro.fr</a>
             </p>
           </section>
 
@@ -48,7 +48,7 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-xl font-black text-[#0E3A5F] mb-4 border-b border-gray-100 pb-2">4. Données Personnelles (RGPD)</h2>
             <p className="leading-relaxed text-gray-600 font-medium">
-              Les informations recueillies via l'application GainablePro (nom, email professionnel, etc.) sont enregistrées dans un fichier informatisé pour la gestion des comptes utilisateurs et la sauvegarde des études techniques. Conformément à la loi « informatique et libertés » et au RGPD, vous pouvez exercer votre droit d'accès, de rectification et de suppression des données vous concernant en contactant : <a href="mailto:arthropaul@gmail.com" className="text-[#29A5DB] hover:underline">arthropaul@gmail.com</a>.
+              Les informations recueillies via l'application GainablePro (nom, email professionnel, etc.) sont enregistrées dans un fichier informatisé pour la gestion des comptes utilisateurs et la sauvegarde des études techniques. Conformément à la loi « informatique et libertés » et au RGPD, vous pouvez exercer votre droit d'accès, de rectification et de suppression des données vous concernant en contactant : <a href="mailto:contact@atmo-pro.fr" className="text-[#29A5DB] hover:underline">contact@atmo-pro.fr</a>.
             </p>
           </section>
 
@@ -57,3 +57,4 @@ export default function MentionsLegales() {
     </div>
   );
 }
+//FIN
