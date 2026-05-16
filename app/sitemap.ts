@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://atmo-site.vercel.app" // VOTRE VRAIE URL ICI
+  const baseUrl = "https://atmo-pro.fr" // VOTRE VRAIE URL ICI
 
   return [
     {
