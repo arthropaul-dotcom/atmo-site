@@ -15,7 +15,7 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-xl font-black text-[#0E3A5F] mb-4 border-b border-gray-100 pb-2">1. Éditeur du site</h2>
             <p className="leading-relaxed text-gray-600 font-medium">
-              Le site <strong>atmo-site.vercel.app</strong> et l'application <strong>GainablePro</strong> sont édités par :<br /><br />
+              Le site <strong>atmo-pro.fr</strong> et l'application <strong>GainablePro</strong> sont édités par :<br /><br />
               <strong>ATMO</strong><br />
               Forme juridique : Entrepreneur individuel<br />
               Capital social : 1 €<br />
