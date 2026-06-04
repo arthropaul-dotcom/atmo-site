@@ -22,7 +22,6 @@ export default function MentionsLegales() {
               Siège social : 1174 route de Saint-Sulpice 42300 Villerest<br />
               SIRET : 10459853700017<br />
               RCS : Roanne<br />
-              Directeur de la publication : Paul LEVEL<br />
               Contact : <a href="mailto:contact@atmo-pro.fr" className="text-[#29A5DB] hover:underline">contact@atmo-pro.fr</a>
             </p>
           </section>
