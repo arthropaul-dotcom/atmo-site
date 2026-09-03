@@ -19,7 +19,6 @@ export default function MentionsLegales() {
               <strong>ATMO</strong><br />
               Forme juridique : Entrepreneur individuel<br />
               Capital social : 1 €<br />
-              Siège social : 1174 route de Saint-Sulpice 42300 Villerest<br />
               SIRET : 10459853700017<br />
               RCS : Roanne<br />
               Contact : <a href="mailto:contact@atmo-pro.fr" className="text-[#29A5DB] hover:underline">contact@atmo-pro.fr</a>
